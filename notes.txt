@@ -1,0 +1,13 @@
+cd ~/orangewood-training
+mkdir -p lyrical_ws/src
+cd lyrical_ws
+colcon build
+source install/local_setup.bash
+echo "source ~/orangewood-training/lyrical_ws/install/local_setup.bash" >> ~/.bashrc
+
+~/orangewood-training/lyrical_ws/
+├── build/
+├── install/
+├── log/
+└── src/
+__________________________________________________________________________________

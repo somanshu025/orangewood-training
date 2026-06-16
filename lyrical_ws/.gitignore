@@ -1,0 +1,64 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Colcon
+.colcon/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# CLion
+.idea/
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# ROS bag files
+*.db3
+*.bag
+*.bag.active
+
+# Gazebo
+gazebo.log
+
+# Environment files
+.env
+
+# Generated maps
+*.pgm
+*.yaml
+
+# RViz configs (optional)
+*.rviz
+
+# Ignition / Gazebo cache
+.ignition/
+.gazebo/
+
+# System files
+.DS_Store
+Thumbs.db
